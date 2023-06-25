@@ -1,1 +1,99 @@
-[]
+[
+    {
+        "DisplayName": "Server Name",
+        "Category": "General",
+        "Description": "The name of the server",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.ServerName",
+        "InputType": "text",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.ServerName",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "Sons of the Forest Dedicated Server",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Max Player Count",
+        "Category": "General",
+        "Description": "Maximum number of players allowed on the server",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.MaxPlayers",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.MaxPlayers",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "8",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "LAN Only",
+        "Category": "",
+        "Description": "Enable LAN only mode",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.LanOnly",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.LanOnly",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Password",
+        "Category": "General",
+        "Description": "Password for Accessing the server",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.Password",
+        "InputType": "password",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.Password",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Save Interval",
+        "Category": "Gameplay",
+        "Description": "How often (in secs) do you want the server to save",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.SaveInterval",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.SaveInterval",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "600",
+        "EnumValues": {}
+    },
+    {
+        "DisplayName": "Log Files Enabled",
+        "Category": "Admin",
+        "Description": "Log Files Enabled (Logs will be in The logs will be output in <user data folder>/logs)",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.LogFilesEnabled",
+        "InputType": "checkbox",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.LogFilesEnabled",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "false",
+        "EnumValues": {
+            "true": "True",
+            "false": "False"
+        }
+    },
+    {
+        "DisplayName": "Save Slot",
+        "Category": "Admin",
+        "Description": "The Save Slot Number for this server",
+        "Keywords": "",
+        "FieldName": "dedicatedserver.SaveSlot",
+        "InputType": "number",
+        "IsFlagArgument": false,
+        "ParamFieldName": "dedicatedserver.SaveSlot",
+        "IncludeInCommandLine": true,
+        "DefaultValue": "1",
+        "EnumValues": {}
+    }
+]
